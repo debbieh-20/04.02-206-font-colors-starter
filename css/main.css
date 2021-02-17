@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  width: 50%;
+}
+  section h1 {
+    color: #7b7d70;
+    font-size: 2em;
+  }
+
+  section h2 {
+    color: #4eafb8;
+    font-size: 1.5em;
+  }
+
+  section p {
+  color: #ff8641;
+  }
+
+/** Tablets larger than 768px wide **/
+/** Change the font colors **/
+@media (min-width: 768px) {
+  section h1 {
+  color: #02cbd2;
+  }
+
+  section h2 {
+  color: #fcc02a;
+  }
+
+  section p {
+  color: #7b8f8e;
+  }
+}
+
+/*** Monitors larger than 1200 px wide **/
+/** Change the font colors **/
+@media (min-width: 1200px) { 
+  section h1 {
+  color: #6e4b61;
+  }
+
+  section h2 {
+  color: #cabd61;
+  }
+
+  section p {
+  color: #c19e74;
+  } 
+}
